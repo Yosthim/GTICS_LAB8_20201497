@@ -38,5 +38,5 @@ public class MovieDao {
         return lista;
     }
 
-    public MovieListDto getMovieById(int id) {}
+    public MovieListDto getMovieByName(String title) {}
 }

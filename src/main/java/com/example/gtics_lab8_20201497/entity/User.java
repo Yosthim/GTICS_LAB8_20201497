@@ -1,7 +1,11 @@
 package com.example.gtics_lab8_20201497.entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 @Entity
 @Table(name = "users")
 public class User {
